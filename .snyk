@@ -1,0 +1,185 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - ipfs > ipfs-unixfs-engine > ipld-resolver > ipld-eth-tx-trie > aegir > karma > socket.io > socket.io-adapter > debug:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipfs-unixfs-engine > ipld-resolver > ipld-eth-tx-trie > aegir > karma > socket.io > socket.io-parser > debug:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipld-resolver > ipld-eth-tx-trie > aegir > karma > socket.io > socket.io-parser > debug:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipld-resolver > ipld-eth-tx-trie > aegir > karma > socket.io > socket.io-adapter > socket.io-parser > debug:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipld-resolver > ipld-eth-tx-trie > aegir > karma > socket.io > socket.io-client > socket.io-parser > debug:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipfs-unixfs-engine > ipld-resolver > ipld-eth-tx-trie > aegir > gulp-mocha > mocha > debug:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipfs-unixfs-engine > ipld-resolver > ipld-eth-tx-trie > aegir > mocha > debug:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipld-resolver > ipld-eth-tx-trie > aegir > gulp-mocha > mocha > debug:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipld-resolver > ipld-eth-tx-trie > aegir > mocha > debug:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipfs-unixfs-engine > ipld-resolver > ipld-eth-tx-trie > aegir > karma > socket.io > debug:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipfs-unixfs-engine > ipld-resolver > ipld-eth-tx-trie > aegir > karma > socket.io > socket.io-client > socket.io-parser > debug:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipfs-unixfs-engine > ipld-resolver > ipld-eth-tx-trie > aegir > karma > socket.io > engine.io > debug:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipfs-unixfs-engine > ipld-resolver > ipld-eth-tx-trie > aegir > karma > socket.io > socket.io-client > debug:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipfs-unixfs-engine > ipld-resolver > ipld-eth-tx-trie > aegir > karma > socket.io > socket.io-client > engine.io-client > debug:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipld-resolver > ipld-eth-tx-trie > aegir > karma > socket.io > debug:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipld-resolver > ipld-eth-tx-trie > aegir > karma > socket.io > socket.io-adapter > debug:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipld-resolver > ipld-eth-tx-trie > aegir > karma > socket.io > engine.io > debug:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipld-resolver > ipld-eth-tx-trie > aegir > karma > socket.io > socket.io-client > debug:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipld-resolver > ipld-eth-tx-trie > aegir > karma > socket.io > socket.io-client > engine.io-client > debug:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipfs-unixfs-engine > ipld-resolver > ipld-eth-tx-trie > aegir > karma > socket.io > socket.io-adapter > socket.io-parser > debug:
+        patched: '2018-06-22T02:01:45.972Z'
+  'npm:hoek:20180212':
+    - ipfs > libp2p-ipfs-browser > libp2p-webrtc-star > wrtc > node-pre-gyp > hawk > hoek:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > libp2p-ipfs-browser > libp2p-webrtc-star > wrtc > node-pre-gyp > hawk > boom > hoek:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > libp2p-ipfs-browser > libp2p-webrtc-star > wrtc > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > libp2p-ipfs-browser > libp2p-webrtc-star > wrtc > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > libp2p-ipfs-browser > libp2p-webrtc-star > wrtc > node-pre-gyp > request > hawk > hoek:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > libp2p-ipfs-browser > libp2p-webrtc-star > wrtc > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > libp2p-ipfs-browser > libp2p-webrtc-star > wrtc > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > libp2p-ipfs-browser > libp2p-webrtc-star > wrtc > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > libp2p-ipfs-nodejs > libp2p-webrtc-star > wrtc > node-pre-gyp > hawk > hoek:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > libp2p-ipfs-nodejs > libp2p-webrtc-star > wrtc > node-pre-gyp > hawk > boom > hoek:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > libp2p-ipfs-nodejs > libp2p-webrtc-star > wrtc > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > libp2p-ipfs-nodejs > libp2p-webrtc-star > wrtc > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > libp2p-ipfs-nodejs > libp2p-webrtc-star > wrtc > node-pre-gyp > request > hawk > hoek:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > libp2p-ipfs-nodejs > libp2p-webrtc-star > wrtc > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > libp2p-ipfs-nodejs > libp2p-webrtc-star > wrtc > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > libp2p-ipfs-nodejs > libp2p-webrtc-star > wrtc > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipfs-unixfs-engine > ipld-resolver > ipld-eth-tx-trie > aegir > coveralls > request > hawk > hoek:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipfs-unixfs-engine > ipld-resolver > ipld-eth-tx-trie > aegir > coveralls > request > hawk > boom > hoek:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipfs-unixfs-engine > ipld-resolver > ipld-eth-tx-trie > aegir > coveralls > request > hawk > sntp > hoek:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipfs-unixfs-engine > ipld-resolver > ipld-eth-tx-trie > aegir > coveralls > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipld-resolver > ipld-eth-tx-trie > aegir > coveralls > request > hawk > hoek:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipld-resolver > ipld-eth-tx-trie > aegir > coveralls > request > hawk > boom > hoek:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipld-resolver > ipld-eth-tx-trie > aegir > coveralls > request > hawk > sntp > hoek:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipld-resolver > ipld-eth-tx-trie > aegir > coveralls > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs-daemon > ipfs > libp2p-ipfs-browser > libp2p-webrtc-star > wrtc > node-pre-gyp > hawk > hoek:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs-daemon > ipfs > libp2p-ipfs-browser > libp2p-webrtc-star > wrtc > node-pre-gyp > hawk > boom > hoek:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs-daemon > ipfs > libp2p-ipfs-browser > libp2p-webrtc-star > wrtc > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs-daemon > ipfs > libp2p-ipfs-browser > libp2p-webrtc-star > wrtc > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs-daemon > ipfs > libp2p-ipfs-browser > libp2p-webrtc-star > wrtc > node-pre-gyp > request > hawk > hoek:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs-daemon > ipfs > libp2p-ipfs-browser > libp2p-webrtc-star > wrtc > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs-daemon > ipfs > libp2p-ipfs-browser > libp2p-webrtc-star > wrtc > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs-daemon > ipfs > libp2p-ipfs-browser > libp2p-webrtc-star > wrtc > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs-daemon > ipfs > libp2p-ipfs-nodejs > libp2p-webrtc-star > wrtc > node-pre-gyp > hawk > hoek:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs-daemon > ipfs > libp2p-ipfs-nodejs > libp2p-webrtc-star > wrtc > node-pre-gyp > hawk > boom > hoek:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs-daemon > ipfs > libp2p-ipfs-nodejs > libp2p-webrtc-star > wrtc > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs-daemon > ipfs > libp2p-ipfs-nodejs > libp2p-webrtc-star > wrtc > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs-daemon > ipfs > libp2p-ipfs-nodejs > libp2p-webrtc-star > wrtc > node-pre-gyp > request > hawk > hoek:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs-daemon > ipfs > libp2p-ipfs-nodejs > libp2p-webrtc-star > wrtc > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs-daemon > ipfs > libp2p-ipfs-nodejs > libp2p-webrtc-star > wrtc > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs-daemon > ipfs > libp2p-ipfs-nodejs > libp2p-webrtc-star > wrtc > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs-daemon > ipfs > ipld-resolver > ipld-eth-tx-trie > aegir > coveralls > request > hawk > hoek:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs-daemon > ipfs > ipld-resolver > ipld-eth-tx-trie > aegir > coveralls > request > hawk > boom > hoek:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs-daemon > ipfs > ipld-resolver > ipld-eth-tx-trie > aegir > coveralls > request > hawk > sntp > hoek:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs-daemon > ipfs > ipld-resolver > ipld-eth-tx-trie > aegir > coveralls > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-06-22T02:01:45.972Z'
+  'npm:minimatch:20160620':
+    - ipfs > ipfs-unixfs-engine > ipld-resolver > ipld-eth-tx-trie > aegir > gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipld-resolver > ipld-eth-tx-trie > aegir > gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipld-resolver > ipld-eth-tx-trie > aegir > gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipfs-unixfs-engine > ipld-resolver > ipld-eth-tx-trie > aegir > gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipfs-unixfs-engine > ipld-resolver > ipld-eth-tx-trie > aegir > gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipld-resolver > ipld-eth-tx-trie > aegir > gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipld-resolver > ipld-eth-tx-trie > aegir > gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipfs-unixfs-engine > ipld-resolver > ipld-eth-tx-trie > aegir > gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2018-06-22T02:01:45.972Z'
+  'npm:ms:20170412':
+    - ipfs > ipfs-unixfs-engine > ipld-resolver > ipld-eth-tx-trie > aegir > karma > socket.io > socket.io-parser > debug > ms:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipfs-unixfs-engine > ipld-resolver > ipld-eth-tx-trie > aegir > karma > socket.io > socket.io-adapter > socket.io-parser > debug > ms:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipfs-unixfs-engine > ipld-resolver > ipld-eth-tx-trie > aegir > karma > socket.io > socket.io-client > socket.io-parser > debug > ms:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipld-resolver > ipld-eth-tx-trie > aegir > karma > socket.io > socket.io-parser > debug > ms:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipld-resolver > ipld-eth-tx-trie > aegir > karma > socket.io > socket.io-client > engine.io-client > debug > ms:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipld-resolver > ipld-eth-tx-trie > aegir > karma > socket.io > socket.io-client > socket.io-parser > debug > ms:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipfs-unixfs-engine > ipld-resolver > ipld-eth-tx-trie > aegir > karma > socket.io > debug > ms:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipfs-unixfs-engine > ipld-resolver > ipld-eth-tx-trie > aegir > karma > socket.io > socket.io-adapter > debug > ms:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipfs-unixfs-engine > ipld-resolver > ipld-eth-tx-trie > aegir > karma > socket.io > engine.io > debug > ms:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipfs-unixfs-engine > ipld-resolver > ipld-eth-tx-trie > aegir > karma > socket.io > socket.io-client > debug > ms:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipfs-unixfs-engine > ipld-resolver > ipld-eth-tx-trie > aegir > karma > socket.io > socket.io-client > engine.io-client > debug > ms:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipld-resolver > ipld-eth-tx-trie > aegir > karma > socket.io > debug > ms:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipld-resolver > ipld-eth-tx-trie > aegir > karma > socket.io > socket.io-adapter > debug > ms:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipld-resolver > ipld-eth-tx-trie > aegir > karma > socket.io > engine.io > debug > ms:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipld-resolver > ipld-eth-tx-trie > aegir > karma > socket.io > socket.io-client > debug > ms:
+        patched: '2018-06-22T02:01:45.972Z'
+    - ipfs > ipld-resolver > ipld-eth-tx-trie > aegir > karma > socket.io > socket.io-adapter > socket.io-parser > debug > ms:
+        patched: '2018-06-22T02:01:45.972Z'
